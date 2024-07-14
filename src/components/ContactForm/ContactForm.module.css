@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border: 1px solid #2a2a2a;
+  border-radius: 4px;
+  max-width: 300px;
+  padding: 8px;
+}
+
+.wrapInput {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_input {
+  border: 1px solid #767676;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 4px 8px;
+}
+
+.error {
+  color: red;
+  font-size: 10px;
+  margin-top: 4px;
+}
+
+.addButton {
+  border: 1px solid #767676;
+  border-radius: 4px;
+  background-color: #efefef;
+  padding: 4px 8px;
+  font-size: 14px;
+  margin: 0 auto;
+}
